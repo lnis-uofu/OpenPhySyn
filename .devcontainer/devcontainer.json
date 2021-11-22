@@ -1,0 +1,5 @@
+{
+  "image": "scale/openphysyn:latest",
+  "extensions": ["dbaeumer.vscode-eslint"],
+  "forwardPorts": [3000]
+}
