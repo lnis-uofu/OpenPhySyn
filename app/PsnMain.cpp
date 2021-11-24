@@ -45,7 +45,7 @@ main(int argc, char* argv[])
     {
         psn::Psn::instance().setProgramOptions(argc, argv);
         if (psn::Psn::instance().programOptions().help())
-        {
+        { 
             psn::Psn::instance().printUsage(true, false, false);
             return 0;
         }

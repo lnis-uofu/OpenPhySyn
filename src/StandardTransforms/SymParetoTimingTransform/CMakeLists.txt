@@ -1,0 +1,4 @@
+
+
+project(OpenPhySynSymParetoTimingTransform VERSION 1.0.0 LANGUAGES CXX)
+DEFINETRANSFORM(sym_paretro_timing_transform src/SymParetoTimingTransform.cpp src/SymParetoTimingTransform.hpp SymParetoTimingTransform)
